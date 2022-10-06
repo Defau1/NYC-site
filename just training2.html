@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Семантическая разметка в HTML5</title>
+    </head>
+    <body>
+        <main>
+            Я русский!
+        </main>
+        <aside style="float: right; width:300px">
+            <h2>NYC Time Zone</h2>
+            New York City is on Eastern Standard Time 
+            (Greenwich mean time minus four hours 
+            during daylight saving time, from about 
+            mid-March into early November, and minus 
+            five hours the rest of the year). <a href="">Подробнее</a></p>
+            </aside>
+            <footer>
+    <address> 
+        Контакты для связи <a href="mailto:js@example.com">Том Смит</a>.
+    </address>
+    <p>© copyright 2016 Example Corp.</p>
+</footer>
+        </aside>
+        <header>
+            <h1>Онлайн-магазин телефонов</h1>
+                <nav>
+                    <ul>
+                        <li><a href="/apple">Apple</a>
+                        <li><a href="/microsoft">Microsoft</a>
+                        <li><a href="/samsung">Samsung</a>
+                    </ul>
+                </nav>
+        </header>
+        <div>
+            Информация о новинках мобильного мира....
+        </div>
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Лучшие пиццерии NYC</h1>
+        <nav>
+            <ul>
+                <li><a href="PJ">Papa Jones</a></li>
+                <li><a href="DP">Domino's Pizza</a></li>
+                <li><a href="EVP">East Village Pizza</a></li>
+            </ul>
+        </nav>
+    </header>
+        <div>
+            Информация о новых точках Пицца - Кафе...
+        </div>
+        <footer>
+            <p><a href="/license"> Лизенционное соглашение</a> </br>
+                Copyright © 2016. Anthony Default</p>
+        </footer>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <H2>Вход на сайт</H2>
+    <form>
+        <fieldset>
+            <legend>Введите свои данные</legend>
+            <label for="login">Логин - </label><br>
+            <input type="text" id="login" name="login"> 
+            <br><label for="password">Пароль - </label><br>
+            <input type="password" id="password" name="password">
+            <br><input type="submit" value="Авторизация">
+        </fieldset>
+    </form>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Логин
+    <form action="Флаг РФ.html" name="login" method="get" autocomplete="on" target="_blank">
+        <input type="text" name="login" value="Имя"> <br>
+      <br> Пароль </br>
+       <input type="password" name="password" size="18" placeholder="Введите пароль...">
+    </form>
+    <p><input type="submit" value="Войти!">
+    <input type="reset" value="Сброс!"></p>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <p>
+        <label for="price"> Цена:</label>
+         <input type="number" list="pricelist" step="1000" min="0" max="100000">
+    </p>
+    <p>
+    <input type="reset" value="Сброс!">
+</p>
+</form>
+        <datalist id="pricelist">
+            <option value="50000"></option>
+            <option value="88000"></option>
+        </datalist>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <input type="number" list="priceList" min="0" max="100000" step="1000" value="0">
+        0<input type="range" list="priceList" min="0" max="100000"> 100.000
+        <p>
+            <button>Отправить</button>
+        </p>
+    </form>
+    <datalist id="priceList">
+    <option value="40000">
+    <option value="67000">
+    <option value="72000">
+    </datalist>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h2><u>В какой части NYC вы живёте?</u></h2>
+        <p>
+            <input type="radio" name="district" /> Квинс
+        </p>
+        <p>
+            <input type="radio"  checked name="district"/> Манхеттан
+        </p>
+        <p>
+            <input type="radio"  name="district" /> Бруклин
+        </p>
+        <p>
+            <input type="radio" name="district" /> Бронкс
+        </p>
+        <p>
+            <input type="radio"  name="district" /> Статен Айленд
+        </p>
+        <button type="submit">Отправить!</button>
+    </form>
+</body>
+</html>
+<p><label for="favcolor">Выберите цвет</label></p>
+<input type="color" list="colors" name="favcolor" id="favcolor">
+<datalist id="colors">
+<option value="#FFFFFF" label="white" >
+<option value="#0000FF" label="blue">
+<option value="#FF0000" label="red">
+</datalist>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <p>
+            <label for="emailid">Email - </label>
+            <input type="email" name="email" placeholder="Введите ваш Имейл..." required size="30" id="emailid">
+            </p>
+            <p>
+                <label for="phoneid">Телефон - </label>
+            <input type="tel" name="phone" placeholder="Введите номер вашего телефона..." required size="30" id="phoneid">
+        </p>
+        <p>
+            <label for="urlid">Ссылка на ВК - </label>
+            <input type="url" name="url" placeholder="Введите ссылку на ваш ВК..." size="30" id="urlid">
+        </p>
+    </form>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <p>
+            <label for="emailid">Введите Имейл - </label>
+            <input type="email" name="emailid" id="emailid" placeholder="Введите ваш Имейл..." size="30" required>
+        </p>
+        <p>
+            <label for="phoneid"> Телефон - </label>
+            <input type="tel" name="phone" id="phoneid" size="30" placeholder="Введите номер вашего телефона..." >
+        </p>
+        <p>
+            <label for="urlid">Вк - </label>
+            <input type="url" name="urlid" id="urlid" size="30" placeholder="Введите ссылку на ваш ВК...">
+        </p>
+        <p>
+            <button type="reset" >Отмена!</button>
+        </p>
+    </form>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <p>
+            <label for="weekid">Неделя!</label>
+            <input type="week" id="weekid" >
+        </p>
+    </form>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <p>
+            <label for="fileid"> Выбранный Файл - </label>
+            <input type="file" name=""fileid id="fileid">
+        </p>
+        <p>
+            <button type="submit" >Открыть файл!</button>
+        </p>
+    </form>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width", initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Логин
+    <form action="верстка сайта.html" method="get" autocomplete="on" name="login" target="_blanc">
+        <input type="text" name="login" value="Введите Логин"> <br>
+        <br>Пароль</br>
+        <input type="text" name="password" value="Введите пароль">
+    </form>
+    <br><input type="submit" value="OK!"> 
+    <input type="reset" value="Reset">
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="get">
+        <p>
+            <label for="district_list"> Выберите район:</label>
+            <select id="district_list" name="district_list">
+                <optgroup label="Лучшие районы">
+                <option value="Манхеттан" selected>Манхеттан</option>
+                <option value="Бруклин">Бруклин</option>
+            </optgroup>
+            <optgroup label="Не лучшие районы)">
+                <option value="Бронкс">Бронкс</option>
+                <option value="Квинс">Квинс</option>
+                <option value="Статен Айленд">Статен Айленд</option>
+            </optgroup>
+        </p>
+    </form>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Валидация в HTML5</title>
+    </head>
+    <body>
+        <form method="get">
+            <p>
+                <label for="phone">Телефон:</label>
+                <input type="text" placeholder="+1-234-567-8901"
+                        pattern="\+\d-\d{3}-\d{4}" id="phone" name="phone" />
+            </p>
+            <p>
+                <input type="submit" value="Отправить" />
+            </p>
+        </form>
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <article>
+        <h2>Нью - Йорк</h2>
+        <section>
+            <h2>Содержание</h2>
+            Нью-Йорк — пожалуй, самый известный город в мире, 
+            в котором сосредоточены финансовые учреждения, 
+            многочисленные исторические и культурные 
+            достопримечательности, музеи, магазины, театры 
+            и многое другое. Это шумный и яркий 
+            город небоскребов и свободы, который 
+            многим знаком по обилию кинофильмов и фото, 
+            где действие разворачивается на его улицах. 
+            Здесь столько возможностей, сколько можно 
+            вообразить. От Таймс-сквер до самого 
+            темного уголка Бронкса — царство крайностей. 
+            От русского анклава в Бруклине на Брайтон-Бич 
+            до филиала Южной Америки в Квинсе — сообщества 
+            из любой страны мира.
+        </section>
+        <section>
+            <h3>Комментарии</h3>
+            <article>
+                <h4>James Stone</h4>
+                <p>I like that</p>
+            </article>
+            <article>
+                <h4>Sam Goodman</h4>
+                <p>Pretty good words</p>
+            </article>
+            <article>
+                <h4>Андрей Сальников</h4>
+                <p>Ого, много нового узнал</p>
+            </article>
+        </section>
+    </article>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li> <a href="main">Главная</a></li>
+            <li> <a href="blog">Блог</a></li>
+            <li> <a href="contacts">Контакты</a></li>
+        </ul>
+    </nav>
+    <article>
+        <header>
+            <h2>Рассказ о Нью Йорке</h2>
+        </header>
+        <nav>
+            <ul>
+            <li> <a href="#part1">Часть 1</a></li>
+            <li> <a href="#part2">Часть 2</a></li>
+        </ul>
+        </nav>
+        <div>
+            <section id="#part1">
+            <h2>Часть 1</h2>
+            <p> Нью-Йорк — пожалуй, самый известный город в мире, 
+                в котором сосредоточены финансовые учреждения, 
+                многочисленные исторические и культурные 
+                достопримечательности, музеи, магазины, театры 
+                и многое другое. Это шумный и яркий 
+                город небоскребов и свободы, который 
+                многим знаком по обилию кинофильмов и фото, 
+                где действие разворачивается на его улицах. 
+                Здесь столько возможностей, сколько можно 
+                вообразить. От Таймс-сквер до самого 
+                темного уголка Бронкса — царство крайностей. 
+                От русского анклава в Бруклине на Брайтон-Бич 
+                до филиала Южной Америки в Квинсе — сообщества 
+                из любой страны мира.</p>
+            </section>
+        </div>
+        <footer>
+
+        </footer>
+    </article>
+    <footer>
+        <p> <a href="/license"> Лицензионное соглашение</a>
+        <a href="/about">О сайте</a>
+        <a href="/dotate">Донаты</a>
+        <p> <small>© Copyright 2022 MyCorp. ( За копирование 
+            информации 
+            с сайта следует получение пизды 
+            от автора ресурса*)</small></p>
+    </footer>
+</body>
+</html>
+
+<footer>
+    <address>
+        Контакт для связи <a href="sosinwot@mail.ru">Anthony Default</a>
+    </address>
+</footer>
